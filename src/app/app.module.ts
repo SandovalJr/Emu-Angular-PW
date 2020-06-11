@@ -21,6 +21,7 @@ import { GasCanonComponent } from './components/pw/aliados/gas-canon/gas-canon.c
 import { GasLuxComponent } from './components/pw/aliados/gas-lux/gas-lux.component';
 import { HaciendaNuevaComponent } from './components/pw/aliados/hacienda-nueva/hacienda-nueva.component';
 import { ServiciosComponent } from './components/pw/servicios/servicios.component';
+import { ContactoComponent } from './components/pw/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { ServiciosComponent } from './components/pw/servicios/servicios.componen
     GasLuxComponent,
     HaciendaNuevaComponent,
     ServiciosComponent,
+    ContactoComponent,
   ],
   imports: [
     BrowserModule,
