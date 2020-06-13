@@ -108,7 +108,7 @@
 
 // MISION LINEAS
 .LineRM {
-  margin-top: 80px;
+  margin-top: 35px;
 
   display: block;
   width: 40% !important;
@@ -128,8 +128,6 @@
 
 // VISION LINEAS
 .LineRV {
-  margin-top: 80px;
-
   display: block;
   width: 40% !important;
   height: 25px;
@@ -148,7 +146,7 @@
 
 // VALORES LINEAS
 .LineRVALOR {
-  margin-top: 10px;
+  margin-top: 24px;
   display: block;
   width: 40% !important;
   height: 25px;
@@ -178,7 +176,7 @@
   }
   // MISION LINEAS
   .LineRM {
-    margin-top: 90px;
+    margin-top: 65px;
     margin-left: -8%;
   }
   .LineYM {
@@ -188,8 +186,6 @@
 
   // VISION LINEAS
   .LineRV {
-    margin-top: 90px;
-
     display: block;
     margin-left: -8%;
   }
@@ -198,7 +194,15 @@
     margin-left: -8%;
   }
 
-
+  // VALORES LINEAS
+  .LineRVALOR {
+    margin-top: 50px;
+    margin-left: -8%;
+  }
+  .LineYVALOR {
+    margin-top: 15px;
+    margin-left: -8%;
+  }
 }
 
 // 768 PX
@@ -255,8 +259,6 @@
 
   // VISION LINEAS
   .LineRV {
-    margin-top: 70px  !important;
-
     display: block;
     margin-top: 40px;
     margin-left: -3%;
@@ -266,7 +268,15 @@
     margin-left: -3%;
   }
 
-
+  // VALORES LINEAS
+  .LineRVALOR {
+    margin-top: -10px;
+    margin-left: -3%;
+  }
+  .LineYVALOR {
+    margin-top: 15px;
+    margin-left: -3%;
+  }
 }
 
 @media (max-width: 414px) {
@@ -322,7 +332,7 @@
 
   // MISION LINEAS
   .LineRM {
-    margin-top: 110px;
+    margin-top: 65px;
     margin-left: -7%;
     height: 23px;
   }
@@ -335,7 +345,7 @@
   // VISION LINEAS
   .LineRV {
     display: block;
-    margin-top: 110px !important;
+    margin-top: 40px;
     margin-left: -7%;
     height: 23px;
   }
@@ -345,13 +355,23 @@
     height: 23px;
   }
 
-
+  // VALORES LINEAS
+  .LineRVALOR {
+    margin-top: 40px;
+    margin-left: -7%;
+    height: 23px;
+  }
+  .LineYVALOR {
+    margin-top: 15px;
+    margin-left: -7%;
+    height: 23px;
+  }
 }
 
 @media (max-width: 411px) {
   // MISION LINEAS
   .LineRM {
-    margin-top: 150px ;
+    margin-top: 80px;
     margin-left: -7%;
     height: 23px;
   }
@@ -364,8 +384,7 @@
   // VISION LINEAS
   .LineRV {
     display: block;
-    margin-top: 150px !important ;
-
+    margin-top: 60px;
     margin-left: -7%;
     height: 23px;
   }
@@ -375,6 +394,17 @@
     height: 23px;
   }
 
+  // VALORES LINEAS
+  .LineRVALOR {
+    margin-top: 60px;
+    margin-left: -7%;
+    height: 23px;
+  }
+  .LineYVALOR {
+    margin-top: 15px;
+    margin-left: -7%;
+    height: 23px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -384,7 +414,7 @@
     border: 2px #41434d solid;
   }
   .LineRM {
-    margin-top: 70px;
+    margin-top: 45px;
     margin-left: -7%;
     height: 23px;
   }
@@ -397,7 +427,7 @@
   // VISION LINEAS
   .LineRV {
     display: block;
-    margin-top: 95px !important;
+    margin-top: 20px;
     margin-left: -7%;
     height: 23px;
   }
@@ -407,7 +437,17 @@
     height: 23px;
   }
 
-
+  // VALORES LINEAS
+  .LineRVALOR {
+    margin-top: 20px;
+    margin-left: -7%;
+    height: 23px;
+  }
+  .LineYVALOR {
+    margin-top: 15px;
+    margin-left: -7%;
+    height: 23px;
+  }
 }
 
 @media (max-width: 360px) {
@@ -435,7 +475,7 @@
   // VISION LINEAS
   .LineRV {
     display: block;
-    margin-top: 100px !important;
+    margin-top: 20px;
     margin-left: -8%;
     height: 23px;
   }
@@ -445,7 +485,17 @@
     height: 23px;
   }
 
-
+  // VALORES LINEAS
+  .LineRVALOR {
+    margin-top: 45px;
+    margin-left: -8%;
+    height: 23px;
+  }
+  .LineYVALOR {
+    margin-top: 15px;
+    margin-left: -8%;
+    height: 23px;
+  }
 }
 
 @media (max-width: 320px) {

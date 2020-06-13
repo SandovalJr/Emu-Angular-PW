@@ -7,12 +7,15 @@
 }
 
 .top-nav-collapse {
-  background: rgba(0, 0, 0, 0.575);
+  background: rgb(0, 0, 0);
 }
 
 #imagen_menu > img {
   width: auto;
   height: 50px;
+}
+#botonnavstyle > a:hover{
+border-bottom: 1px white solid;
 }
 
 @media (max-width: 375px) {
