@@ -22,6 +22,8 @@ import { GasLuxComponent } from './components/pw/aliados/gas-lux/gas-lux.compone
 import { HaciendaNuevaComponent } from './components/pw/aliados/hacienda-nueva/hacienda-nueva.component';
 import { ServiciosComponent } from './components/pw/servicios/servicios.component';
 import { ContactoComponent } from './components/pw/contacto/contacto.component';
+import { LogInSWComponent } from './components/sw/log-in-sw/log-in-sw.component';
+import { SwComponent } from './components/sw/sw.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +41,8 @@ import { ContactoComponent } from './components/pw/contacto/contacto.component';
     HaciendaNuevaComponent,
     ServiciosComponent,
     ContactoComponent,
+    LogInSWComponent,
+    SwComponent,
   ],
   imports: [
     BrowserModule,
