@@ -143,10 +143,17 @@ button {
   outline: none !important;
   border: none;
   background: transparent;
+  border-left: 1px #ddc700 solid;
+  border-right: 1px #ddc700 solid;
 }
 
 button:hover {
   cursor: pointer;
+  background: #ddc700;
+}
+
+.login100-form-btn:hover {
+  color: white;
 }
 
 iframe {
@@ -338,7 +345,6 @@ iframe {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
-
 
 /*------------------------------------------------------------------
 [ Button ]*/
